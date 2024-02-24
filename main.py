@@ -1,6 +1,7 @@
-Numero1 = int (input ("Ingrese su primer numero:"))
-Numero2 = int (input ("Ingrese su segundo numero:"))
+numero1 = int(input("Escriba su primer numero:"))
+numero2 = int(input("Escriba su segundo numero:"))
+numero3 = int(input("Escriba su tercer numero:"))
 
-suma = Numero1 + Numero2
+numeroMayor = max(numero1, numero2, numero3)
 
-print (suma)
+print("El numero mayor entre los tres es:", numeroMayor)
